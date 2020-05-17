@@ -20,7 +20,7 @@ import pyotp
 #         'https': 'socks5h://{}:{}'.format('127.0.0.1','4444')
 #     }
 
-commands = [{'command':'start', 'description':'start'}, {'command':'settings', 'description':'settings'}, {'command':'add', 'description':'add new block'}, {'command':'generate_password', 'description':'generate password [lenght]'}, {'command':'all', 'description':'view all you blocks'}, {'command':'help', 'description':'help'}]
+commands = [{'command':'start', 'description':'start'}, {'command':'add', 'description':'add new block'}, {'command':'generate_password', 'description':'generate password [lenght]'}, {'command':'all', 'description':'view all you blocks'}, {'command':'help', 'description':'help'}]
 
 folder = os.path.dirname(os.path.abspath(__file__))
 
